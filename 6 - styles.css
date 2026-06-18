@@ -1,0 +1,135 @@
+/* Desafio 1 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    margin: 50px 0 0 60px;
+    width: 100vw;
+}
+
+.link-header{
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+button{
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+img{
+    margin-top: 80px;
+    margin-left: 6vw;
+    width: 37vw;
+    display: inline-block;
+}
+
+div{
+    display: inline-block;
+    width: 40vw;
+    margin-left: 7vw;
+}
+
+
+h1{
+    font-weight: 700;
+    font-size: 4.5vw;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    width: 36vw;
+}
+
+.link-button{
+    font-weight: 500;
+    font-size: 1.4vw;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .link-header{
+        display: none;
+    }
+
+    button{
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        position: fixed;
+        right: 17vw;
+        top: 10vw;
+    }
+
+    div{
+        margin-top: 150px;
+        display: block;
+        width: 100vw;
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        width: 88vw;
+        height: 60px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 18px;
+        text-align: center;
+        width: 300px;
+        margin-left: 8vw;
+        margin-bottom: 41px;
+    }
+
+    .link-button{
+        font-size: 18px;
+        text-align: center;
+        margin-left: 125px;
+    }
+
+    img{
+        display: block;
+        position: fixed;
+        bottom: 5vh;
+        width: 312px;
+        height: 288px;
+        margin: 0 0 80px 70px;
+    }
+}
+
+
